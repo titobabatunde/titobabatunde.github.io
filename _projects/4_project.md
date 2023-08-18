@@ -1,10 +1,11 @@
 ---
 layout: page
 title: project 4
-description: another without an image
-img:
+description: March, April 2022 National Biomechanics Day at Carnegie Mellon University
+img: assets/img/16.jpg
 importance: 3
 category: fun
+redirect: https://cmubiomechday.wordpress.com/
 ---
 
 Every project has a beautiful feature showcase page.

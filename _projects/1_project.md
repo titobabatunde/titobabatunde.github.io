@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
-description: a project with a background image
-img: assets/img/12.jpg
-importance: 1
+title: project 2
+description: "MEG24780: OpenGL Demo of plant planet trapped under gold glasses that land using on a rocket (IN SPACEEEE)"
+img: assets/img/15.jpg
+importance: 2
 category: work
-related_publications: einstein1956investigations, einstein1950meaning
+redirect: https://github.com/titobabatunde/MEG24780-guess-flower
 ---
 
 Every project has a beautiful feature showcase page.

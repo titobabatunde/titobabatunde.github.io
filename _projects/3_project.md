@@ -1,10 +1,10 @@
 ---
 layout: page
-title: project 3
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
-importance: 3
+title: project 1
+description: Classifying the scaffold routing of computed DNA origami designs using CNN
+img: assets/img/13.jpg
+redirect: meg24787-project.pdf
+importance: 1
 category: work
 ---
 

@@ -1,84 +1,157 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
+@string{asme = {American Society of Mechanical Engineers,}}
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+
+@article{babatunde_generating_2021,
+	title = {Generating {DNA} {Origami} {Nanostructures} through {Shape} {Annealing}},
+	volume = {11},
+	copyright = {http://creativecommons.org/licenses/by/3.0/},
+	url = {https://www.mdpi.com/2076-3417/11/7/2950},
+	doi = {10.3390/app11072950},
+	abstract = {Structural DNA nanotechnology involves the design and self-assembly of DNA-based nanostructures. As a field, it has progressed at an exponential rate over recent years. The demand for unique DNA origami nanostructures has driven the development of design tools, but current CAD tools for structural DNA nanotechnology are limited by requiring users to fully conceptualize a design for implementation. This article introduces a novel formal approach for routing the single-stranded scaffold DNA that defines the shape of DNA origami nanostructures. This approach for automated scaffold routing broadens the design space and generates complex multilayer DNA origami designs in an optimally driven way, based on a set of constraints and desired features. This technique computes unique designs of DNA origami assemblies by utilizing shape annealing, which is an integration of shape grammars and the simulated annealing algorithm. The results presented in this article illustrate the potential of the technique to code desired features into DNA nanostructures.},
+	language = {en},
+	number = {7},
+	urldate = {2021-04-07},
+	journal = {Applied Sciences},
+	author = {Babatunde, Bolutito and Arias, D. Sebastian and Cagan, Jonathan and Taylor, Rebecca E.},
+	month = {Jan},
+	year = {2021},
+  publisher = {Multidisciplinary Digital Publishing Institute},
+	keywords = {automated generative design, computer-aided design (CAD), DNA origami, shape annealing, structural DNA nanotechnology},
+	pages = {2950},
+  preview = {scaffold-filling-growth.gif},
+  pdf={applsci-11-02950-v2.pdf}
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
-  bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+@article{babatunde_formal_2021,
+	title = {A formal approach for automated generation of {DNA} origami designs},
+	abstract = {Over recent years, structural DNA nanotechnology has witnessed the unveiling of transformative tools that have
+advanced the design of DNA origami nanostructures. Currently, most structures are manually designed from the
+bottom-up which starts at the base scale to design large DNA assemblies. However, the complexity of the manual
+process often limits designs to simple structures and the slow design process limits the number of feasible designs
+for comparison. Such limitations spurred the creation of automated tools that utilize an approach that is
+fundamentally top-down by starting with an outline of the desired configuration and walking backwards to define the
+DNA base sequence to form the large DNA assembly. However, these automated tools also limit the design space
+by requiring the designer to fully conceptualize the design before implementation. A formal approach to generate
+designs from scratch would greatly advance the design of DNA origami structures. We introduce such a formal
+approach that utilizes generative optimization strategies to design DNA origami nanostructures through automation.
+This is achieved through shape annealing [1], which couples simulated annealing [2], a stochastic optimization
+method, with shape grammars [3], which use a formal rule-based method to define the generation of geometric
+shapes. Shape annealing optimally directs the generation of shapes by controlling the selection and
+implementation of transformative shape rules. This approach addresses the limitations previously stated by
+computing optimally directed scaffold routing patterns only with a set constraints and desired properties. During the
+annealing schedule, scaffold segments are selected in order to optimally grow the scaffold length for a desired
+function. As an initial demonstration of the method's capability to generate optimally driven scaffold routing
+patterns, we use three distinct polyhedral meshes as a constraint for a filling and coating application. By utilizing
+constraints to control the generation of the scaffold, this approach is fundamentally a hybrid top-down and bottom
+up design process. The results in Figure 1 illustrate the potential of shape annealing to code desired properties into
+DNA origami designs.},
+	number = {1},
+	publisher = {Institute of Physics},
+	author = {Babatunde, Bolutito and Arias, D. Sebastian and Cagan, Jonathan and Taylor, Rebecca E.},
+	month = {Apr},
+	year = {2021},
+	journal = {FNANO 2021: 18th Annual Conference Foundations of Nanoscience, Virtual},
+  notes = {Session 1: Computational Tools, Chair: William Shih},
+	pages = {37},
+	pdf = {fnano-2021-abstract.pdf},
+  preview = {fnano-2021.png}
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein, A. and Podolsky, B. and Rosen, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
+@article{babatunde_improved_2023,
+	title = {An {Improved} {Shape} {Annealing} {Algorithm} for the {Generation} of {Coated} {DNA} {Origami} {Nanostructures}},
+  abstract = {In recent years, the field of structural DNA nanotechnology
+has advanced rapidly due to transformative design tools.
+Although these tools have been revolutionary, they still bear one
+overall limitation of requiring users to fully conceptualize their
+designs before designing. Recently, a simple computational
+casting technique was developed using generative optimization
+strategies to automate the design of DNA origami
+nanostructures. This approach employs a shape annealing
+algorithm, which creates a formal language of honeycomb DNA
+origami nanostructures with shape grammars and drives designs
+from the language towards a desired configuration using
+simulated annealing. This initial demonstration of the approach
+can generate novel scaffold routing schemes for creating solid
+or hollow structures constrained by boundaries of polyhedral
+meshes. The results from the initial approach, particularly from
+the hollow structures, reveal a challenging design space. This
+simple technique generates novel scaffold routing schemes that
+do not replicate the overall polyhedral mesh shape and is limited
+in its ability of controlling scaffold path exploration in the design
+space. This paper demonstrates an approach for varying
+effective wall thickness and improving quality of polyhedral
+mesh coverage for hollow structures that can be tuned and
+optimized by introducing a more refined computational casting
+technique. We achieve these improvements through changes in
+the simulated annealing algorithm by adding a Hustin move set
+algorithm that dynamically adjusts the performance of the
+overall design and redefining how these hollow designs are
+articulated. The results in this work illustrate how the shape
+annealing algorithm can navigate a challenging design space to
+generate effective hollow designs.},
+	number = {113633},
+	publisher = {American Society of Mechanical Engineers},
+	author = {Babatunde, Bolutito and Cagan, Jonathan and Taylor, Rebecca E.},
+	month = {Aug},
+	year = {2023},
+	journal = {Proceedings of the ASME 2023
+International Design Engineering Technical Conferences and
+Computers and Information in Engineering Conference
+IDETC/CIE2023, Boston, MA},
+  notes = {DAC-11-01: Design of Engineering Materials and Structures},
+	pages = {1--12},
+	pdf = {idetc-2023.pdf},
+  preview = {idetc-2023.png},
   selected={true}
 }
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
+@article{babatunde_refined_2021,
+	title = {A refined shape annealing algorithm for the optimal generation of {DNA} origami designs},
+	abstract = {A refined shape annealing algorithm for the optimal generation of DNA origami designs
+Bolutito Babatunde1, Jonathan Cagan1 and Rebecca Taylor1,2,3
+1Department of Mechanical Engineering, 2Department of Biomedical Engineering, 3Department
+of Electrical and Computer Engineering, Carnegie Mellon University, USA
+In the recent years, the field of structural DNA nanotechnology has advanced rapidly due
+to transformative design tools. Although these tools have been revolutionary, they still bear two
+key limitations. Base-level design tools push users towards conceptually simpler extrusion-style
+designs due to the complexity of manually constructing more irregular geometries. This limitation
+gave rise to the development of powerful automated and semi-automated tools for generating
+wireframe [1] and solid extrusion-based systems [2]. However, these new tools still limit users to
+fully conceptualize their design and are therefore unable to assist with practical challenges
+encountered in DNA origami design such as efficient use of the scaffold.
+We have previously shown that generative optimization strategies can be used to design
+DNA origami nanostructures through automation [3]. In this work, we show how this method can
+be used to implement coating-type designs for arbitrary input shapes that use differing amounts
+of scaffold. This is accomplished by employing a shape annealing algorithm [4], which creates a
+language of DNA nanostructures with shape grammars
+[5] and drives designs from the language towards a
+desired configuration using simulated annealing [6].
+Shape grammars use a formal rule-based method to
+define the relationship between geometric shapes while
+simulated annealing is a stochastic optimization
+technique. This formal approach addresses the
+limitations from current automated and semi-automated
+tools by generating complex DNA origami designs in an
+optimally driven way only with a set of boundaries and
+desired characteristics. In previous work, this new
+approach was demonstrated by directing the scaffold
+routing pattern to fill or coat the walls of distinct
+polyhedral meshes as boundaries. Here, we present,
+a more refined approach that addresses the quality,
+thickness, and scaffold utilization of generated
+coatings.},
+	number = {62},
+	publisher = {International Society for Nanoscale Science, Computation, and Engineering (ISNSCE)},
+	author = {Babatunde, Bolutito and Cagan, Jonathan and Taylor, Rebecca E.},
+	month = {Aug},
+	year = {2022},
+	journal = {28th International Conference on DNA Computing and Molecular Programming (DNA28), Albuquerque, NM},
+  notes = {Session 2},
+	pages = {82},
+	pdf = {dna28-2022.pdf},
+  preview = {dna28-2022.jpg}
 }
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
-
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif}
-}

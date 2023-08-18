@@ -1,77 +1,280 @@
 {
-  "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
-    "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
-    "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
-  },
-  "work": [
+    "basics":
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
-      "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": [
-        "Relativity"
-      ]
-    }
-  ],
-  "volunteer": [],
-  "education": [
-    {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
-      "score": "",
-      "courses": [
-        "Theory of Relativity"
-      ]
-    }
-  ],
-  "awards": [
-    {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
-    }
-  ],
-  "certificates": [],
-  "publications": [],
-  "skills": [],
-  "languages": [
-    {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Fluent"
-    }
-  ],
-  "interests": [],
-  "references": [],
-  "projects": []
-}
+        "name":"Bolutito Babatunde",
+        "label":"PhD Candidate",
+        "image":"",
+        "email":"bbabatun@cmu.edu",
+        "phone":"(903) 520-5782",
+        "url":"https://titobabatunde.github.io/",
+        "summary":"",
+        "location":
+        {
+            "address":"5000 Forbes Avenue, Scaife Hall",
+            "postalCode":"PA 15213",
+            "city":"Pittsburgh",
+            "countryCode":"US",
+            "region":"Pennsylvania"
+            },
+            "profiles":
+            [
+                {
+                    "network":"Twitter",
+                    "username":"titobabatunde",
+                    "url":"https://twitter.com/titobabatunde"
+                    }
+            ]
+        },
+        "education":
+        [
+            {
+                "institution":"Texas Tech University, Lubbock, TX",
+                "url":"https://www.ttu.edu/",
+                "studyType":"Bachelor of Science, Mechanical Engineering",
+                "startDate":"2015-08",
+                "endDate":"2018-05",
+                "score":"",
+                "courses":"Minor: Computer Science, Mathematics"
+            },
+            {
+                "institution":"Carnegie Mellon University, Pittsburgh, PA",
+                "url":"https://www.cmu.edu/",
+                "studyType":"Master of Science, Mechanical Engineering",
+                "startDate":"2019-08",
+                "endDate":"2022-12",
+                "score":"",
+                "courses":[
+                    "MEG24787 (Machine Learning and Artificial Intelligence for Engineers)",
+                    "MEG24780 (Engineering Computation)"
+                    ]
+            },
+            {
+                "institution":"Carnegie Mellon University, Pittsburgh, PA",
+                "url":"https://www.cmu.edu/",
+                "area":"automated design & structural DNA nanotechnology",
+                "studyType":"PhD, Mechanical Engineering",
+                "startDate":"2019-08",
+                "score":"",
+                "courses":"Advisors: Dr. Rebecca E. Taylor, Dr. Jonathan Cagan"
+            }
+        ],
+        "awards":
+        [
+            {
+                "title":"DoD NDSEG Fellow",
+                "url":"https://ndseg.org/",
+                "date":"2021-09",
+                "awarder":"Office of Naval Research (ONR) under direction of the Office of the Under Secretary of Defense for Research & Engineering",
+                "summary":"The highly competitive Department of Defense (DoD) National Defense and Engineering Graduation Fellowship (NDSEG) Fellowship program was established by direction of congress as an approach to increasing the number of United States (U.S.) citizens receiving doctoral degrees in science and engineering (S&E) disciplines of military importance."
+            },
+            {
+                "title":"MEOS Award - Silver Level",
+                "url":"https://ashleydalrymple.com/meos-program/",
+                "date":"2022-06",
+                "awarder":"Mechanical Engineering diversity, equity, and inclusion (DEI) TaskForce at Carnegie Mellon University (CMU)","summary":"The Mechanical Engineering Outreach Stars (MEOS) program is a tiered system to reward and incentivize student groups and research labs to participate in outreach activities. The top tiers prioritize long-standing outreach activities to under-represented minorities."
+            },
+            {
+                "title":"NSF GRFP (offered but declined)",
+                "url":"https://www.nsfgrfp.org/",
+                "date":"2021-03",
+                "awarder":"National Science Foundation (NSF)",
+                "summary":"The purpose of the National Science Foundation (NSF) Graduate Research Fellowship Program (GRFP) is to ensure the quality, vitality, and diversity of the scientific and engineering workforce of the United States. GRFP seeks to broaden participation in science and engineering of underrepresented groups, including women, minorities, persons with disabilities, and veterans."
+            },
+            {
+                "title":"GEM Fellowship",
+                "url":"https://www.gemfellowship.org/",
+                "date":"2019-08",
+                "awarder":"National Consortium for Graduate Degrees for Minorities in Engineering and Science (GEM)",
+                "summary":"The mission of The National GEM Consortium is to enhance the value of the nation's human capital by increasing the participation of underrepresented groups (African Americans, American Indians, and Hispanic Americans) at the master's and doctoral levels in engineering and science."
+            }
+        ],
+        "research":
+        [
+            {
+                "name":"Carnegie Mellon University, Pittsburgh, PA",
+                "position":"Graduate Student Researcher",
+                "url":"https://www.cmu.edu/me/idig/",
+                "startDate":"2019-08",
+                "summary":"Thesis: Investigating a flexible framework for automating DNA origami design"
+                "highlights":[
+                    "Investigating a formalized approach for automating multilayer solid and hollow DNA origami nanostructure designs using generative optimization strategies (i.e shape annealing).",
+                    "Conducting a case study to improve design uniformity by analyzing the effects of DNA helix route direction on structural porosity, thereby expanding the design search space and capabilities.",
+                    "Developing an algorithm to transform a linear single DNA helix graph to a Eulerian circuit, resulting in a circular route preferred by the research community.",
+                    "Creating a graph neural network to predict a single simulation time-step of DNA origami nanostructure behavior, thereby enhancing the formalized approach to generate mechanically robust structures.",
+                    "Developed custom algorithms to convert the generated designs into formats compatible with scadnano and oxDNA, widely used design and simulation tools in the research community.",
+                    "Collaborating with a post-Masters student for design manufacturing and a PhD candidate on developing a graph neural ne work."
+                ]
+                },
+            {
+                "name":"Los Alamos National Laboratory (LANL), Los Alamos, NM",
+                "position":"Future Female Leaders in Engineering (FFLIE) Undergraduate Intern",
+                "url":"https://www.lanl.gov/careers/career-options/student-internships/_assets/docs/fflie-faqs.pdf",
+                "startDate":"2018-05",
+                "endDate":"2018-08",
+                "highlights":[
+                    "Constructed a functional prototype of a temperature controller connected to a heating mantle for heating specimens using Proportional-Integral-Derivative (PID) tuning",
+                    "Enhanced electrical skills by designing, wiring, and soldering the electrical system for the temperature controller",
+                    "Acquired data of temperature response with LABVIEW (systems engineering software)",
+                    "Designed temperature controller parts for machining with Creo (3D modeling software",
+                    "Presented research at the annual LANL student symposium"
+                ]
+            },
+            {
+                "name":"Los Alamos National Laboratory (LANL), Los Alamos, NM",
+                "position":"Athena Scholar Graduate Intern",
+                "url":"https://www.lanl.gov/careers/career-options/student-internships/LANL%20Summer%20Schools/FFLIE.php","startDate":"2019-05",
+                "endDate":"2019-08",
+                "highlights":[
+                    "Engaged in professional enrichment activities to enhance technical skills ",
+                    "Constructed a functional prototype of a temperature controller connected to a chamber for heating specimens using Programmable Logic Controller (PLC) for remote system operation",
+                    "Enhanced electrical skills by designing, wiring, and soldering the electrical system for the temperature controller",
+                    "Designed temperature controller parts for machining with Creo (3D modeling software)",
+                    "Utilized Robotic Operating System (ROS) and MoveIt to program robotic arm for grabbing heating mantle"
+                ]
+            },
+            {
+                "name":"Texas Tech University, Lubbock, TX",
+                "position":"Undergraduate Student Researcher",
+                "url":"https://biomems.mech.utah.edu/people/",
+                "startDate":"2018-01",
+                "endDate":"2019-05",
+                "summary":"Undergraduate Student Researcher at Biomedical: Micro/Nano Device Lab",
+                "highlights":[
+                    "Investigated a flexible, sensitive, and wearable strain sensor for monitoring biomedical disorders ",
+                    "Designed and built a circuit system that passes raw data through a low pass filter to a ",
+                    "Enhanced electrical skills by designing, wiring, and soldering the electrical system for the temperature controller","Created a program for data acquisition customized for detecting resistive strain",
+                    "Characterized the strain sensor by performing stretch/release and bending cyclese"
+                ]
+            }
+        ],
+        "teaching":
+        [
+            {
+                "name":"F24-101: Fundamentals of Mechanical Engineering",
+                "position":"Teaching Assistant, Carnegie Mellon University",
+                "url":"https://www.meche.engineering.cmu.edu/education/courses/24-101.html",
+                "startDate":"2022-01",
+                "endDate":"2022-05",
+                "summary":"The purpose of this course is to introduce the student to the field of mechanical engineering through an exposition of its disciplines, including structural analysis, mechanism design, fluid flows, and thermal systems.",
+                "highlights":[
+                    "Collaborated with Assistant Professor Diana Haidar to design comprehensive assessments with corresponding rubric and solutions.",
+                    "Introduced students to the fundamentals of engineering design, solid mechanics, thermal-fluid systems, and mechatronics."
+                ]
+            }
+        ],
+        "certificates":[],
+        "projects":
+        [
+            {
+                "name":"MEG-24787: Machine Learning and Artificial Intelligence for Engineers",
+                "url":"https://www.meche.engineering.cmu.edu/education/courses/24-787.html",
+                "endDate":"2022-12",
+                "startDate":"2022-12",
+                "summary":"This course covers fundamental AI and ML techniques useful for developing intelligent software tools to support engineering design and other engineering activities. The computational techniques covered include: search, constraint satisfaction, probability, data mining, pattern recognition, neural networks, optimization, and evolutionary computation. ",
+                "highlights":
+                [
+                    "Collaborated on Google Colab with a PhD candidate to develop a custom convolution neural network (CNN) for classifying gaps in walls of generated hollow DNA origami design images.",
+                    "Demonstrated expertise in applying machine learning techniques to synthetic biomechanical design.",
+                ]
+            }
+        ],
+        "publications":[],
+        "skills":
+        [
+            {"name":"Python, "},
+            {"name":"C++ (OpenGL)"},
+            {"name":"Jekyll"},
+            {"name":"html"},
+            {"name":"css"},
+            {"name":"Git"}
+        ],
+        "interests":
+        [
+            {"name":"Automated design"},
+            {"name":"Mathematical optimization"},
+            {"name":"Synthetic biomechanical design"},
+            {"name":"Computational design"},
+            {"name":"generative design (AI)"}
+        ],
+        "volunteer":
+        [
+            {
+                "name":"Carnegie Mellon University, Pittsburgh, PA",
+                "position":"Website Developer",
+                "url":"https://thebiomechanicsinitiative.org/#about-nbd",
+                "endDate":"2023-03",
+                "startDate":"2023-03",
+                "summary":"National Biomechanics Day is a world-wide celebration of Biomechanics in its many forms for high school students and teachers.",
+                "highlights":
+                [
+                    "Designed the website for National Biomechanics Day to introduce Biomechanics to middle and high school students",
+                    "https://titobabatunde.github.io/cmu-nbd-S2023/",
+                    "Coordinated student registration using DocuSign"
+                ]
+            },
+            {
+                "name":"Carnegie Mellon University, Pittsburgh, PA",
+                "position":"Website Developer",
+                "url":"https://thebiomechanicsinitiative.org/#about-nbd",
+                "endDate":"2022-04",
+                "startDate":"2022-03",
+                "summary":"National Biomechanics Day is a world-wide celebration of Biomechanics in its many forms for high school students and teachers.",
+                "highlights":
+                [
+                    "Designed the website for National Biomechanics Day to introduce Biomechanics to middle and high school students",
+                    "https://cmubiomechday.wordpress.com/",
+                    "Created and led a session on designing structures with DNA with a demo where students made a wireframe DNA origami icosahedron out of magnetic balls and rods"
+                ]
+            },
+            {
+                "name":"5th Summer Physics Camp for Young Women"
+                ,"position":"Presenter",
+                "url":"https://sites.google.com/view/2021-summer-physics-camp/home?authuser=0",
+                "endDate":"2021-06",
+                "startDate":"2021-06",
+                "summary":"The camp is the vision of Anna Llobet, a physicist in the neutron science and technology group at the Laboratory, who won the 2018 LANL Distinguished Performance Award for organizing the camp. Student attend STEM-related lectures.",
+                "highlights":
+                [
+                    "Introduced biomechanics and DNA origami design to female students from 8th-12th grade",
+                    "Taught students how to design a DNA origami mesh cube using OxView"
+                ]
+            },
+            {
+                "name":"Carnegie Mellon University, Pittsburgh, PA",
+                "position":"Website Developer",
+                "url":"https://thebiomechanicsinitiative.org/#about-nbd",
+                "endDate":"2021-04",
+                "startDate":"2021-04",
+                "summary":"National Biomechanics Day is a world-wide celebration of Biomechanics in its many forms for high school students and teachers.",
+                "highlights":
+                [
+                    "Designed the website for National Biomechanics Day to introduce Biomechanics to middle and high school students",
+                    "https://cmubiomechday.wordpress.com/2021-homepage/"
+                ]
+            },
+            {
+                "name":"Carnegie Mellon University, Pittsburgh, PA",
+                "position":"Gelfand Outreach Workshop Volunteer",
+                "url":"https://www.cmu.edu/gelfand/",
+                "endDate":"2019-11",
+                "startDate":"2019-11",
+                "summary":"The Leonard Gelfand Center for Service Learning and Outreach was endowed by alumnus Mark Gelfand to create and strengthen partnerships with local schools and education providers.",
+                "highlights":
+                [
+                    "Taught DNA nanotechnology to 4-6th graders by constructing a double helix with pasta and pipe cleaners"
+                ]
+            },
+            {
+                "name":"Carnegie Science Center, Pittsburgh, PA",
+                "position":"Carnegie Science Center Sci Tech Day  Volunteer",
+                "url":"https://carnegiesciencecenter.org/science-impact-winter-2019/microbits/",
+                "endDate":"2019-11",
+                "startDate":"2019-11",
+                "summary":"Field trip events that invite middle and high school students to explore STEM career paths.",
+                "highlights":
+                [
+                    "Taught DNA nanotechnology to middle school students by constructing a paper origami double helix"
+                ]
+            }
+        ],
+        "references":[]}

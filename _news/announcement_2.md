@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 28th International Conference on DNA Computing and Molecular Programming (DNA28) Conference
-date: 2022-08-09 19:33:00-0400
+date: 2022-08-09 19:39:00-0400
 inline: false
 related_posts: false
 ---

@@ -3,7 +3,7 @@ layout: page
 title: project 3
 description: "MEG24780: Maze Wars recreated using OpenGL in collaboration with CMU grad students"
 img: assets/img/14.jpg
-importance: 3
+importance: 4
 category: work
 redirect: https://github.com/titobabatunde/MEG24780-maze-wars
 ---

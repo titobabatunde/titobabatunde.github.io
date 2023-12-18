@@ -1,10 +1,10 @@
 ---
 layout: page
 title: project 1
-description: Classifying the scaffold routing of computed DNA origami designs using CNN
+description: "MEG24787: Classifying the scaffold routing of computed DNA origami designs using CNN"
 img: assets/img/13.jpg
 redirect: meg24787-project.pdf
-importance: 1
+importance: 2
 category: work
 ---
 

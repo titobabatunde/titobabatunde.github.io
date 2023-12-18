@@ -3,7 +3,7 @@ layout: page
 title: project 2
 description: "MEG24780: OpenGL Demo of plant planet trapped under gold glasses that land using on a rocket (IN SPACEEEE)"
 img: assets/img/15.jpg
-importance: 2
+importance: 3
 category: work
 redirect: https://github.com/titobabatunde/MEG24780-guess-flower
 ---

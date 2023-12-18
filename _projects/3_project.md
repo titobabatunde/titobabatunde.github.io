@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 1
+title: project 2
 description: "MEG24787: Classifying the scaffold routing of computed DNA origami designs using CNN"
 img: assets/img/13.jpg
 redirect: meg24787-project.pdf

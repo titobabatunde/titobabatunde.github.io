@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 3
+title: project 4
 description: "MEG24780: Maze Wars recreated using OpenGL in collaboration with CMU grad students"
 img: assets/img/14.jpg
 importance: 4

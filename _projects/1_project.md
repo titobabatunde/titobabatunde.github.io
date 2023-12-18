@@ -1,6 +1,6 @@
 ---
 layout: page
-title: project 2
+title: project 3
 description: "MEG24780: OpenGL Demo of plant planet trapped under gold glasses that land using on a rocket (IN SPACEEEE)"
 img: assets/img/15.jpg
 importance: 3

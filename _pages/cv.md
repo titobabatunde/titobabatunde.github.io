@@ -8,7 +8,7 @@ heading: CV
 
 
 <center>
-If the embedded version of my CV does not work, you can download a copy <a href="/assets/pdf/240306-cover-letter-spring.pdf" target="_blank">here</a>.
+If the embedded version of my CV does not work, you can download a copy <a href="/assets/pdf/240306-cv-spring.pdf" target="_blank">here</a>.
 </center>
 
 <br>

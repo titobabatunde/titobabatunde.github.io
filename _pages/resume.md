@@ -1,8 +1,8 @@
 ---
 layout: page
 permalink: /resume/
-title: Resume
-description: Industry-focused resume (PDF).
+title: resume
+description: resume (PDF).
 nav: true
 nav_order: 4
 ---

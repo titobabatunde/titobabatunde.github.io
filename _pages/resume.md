@@ -8,7 +8,7 @@ nav_order: 4
 ---
 
 <center>
-If the embedded PDF does not load in your browser, you can download a copy <a href="{{ '/assets/pdf/260401-resume-babatunde.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">here</a>.
+If the embedded PDF does not load in your browser, you can download a copy <a href="{{ '/assets/pdf/260805-resume-babatunde.pdf' | relative_url }}" target="_blank" rel="noopener noreferrer">here</a>.
 </center>
 
 <br>

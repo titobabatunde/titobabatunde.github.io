@@ -30,9 +30,9 @@ Although I climb more than I do silks, I have way less climbing content. I start
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include video.html path="assets/video/IMG_4934.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+        {% include video.html path="assets/video/IMG_0481.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
         <div class="caption">
-            Low grad v3-v5
+            Low grad v3-v5??
         </div>
     </div>
 </div>
